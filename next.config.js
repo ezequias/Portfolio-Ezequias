@@ -1,11 +1,13 @@
 /** @type {import('next').NextConfig} */
+const isProd = process.env.NODE_ENV === 'production';
+
 const nextConfig = {
   reactStrictMode: true,
   output: 'export',
 
-  // ESSAS DUAS LINHAS SÃO OBRIGATÓRIAS
-  basePath: '/Portfolio-Ezequias',
-  assetPrefix: '/Portfolio-Ezequias',
+  // APLICA BASEPATH E ASSETPREFIX SÓ EM PRODUÇÃO
+  basePath: isProd ? '/Portfolio-Ezequias' : '',
+  assetPrefix: isProd ? '/Portfolio-Ezequias' : '',
 
   trailingSlash: true,
   images: {
