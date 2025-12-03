@@ -2,9 +2,21 @@
 const nextConfig = {
   reactStrictMode: true,
 
-  // ← ESSA PARTE RESOLVE O ERRO DO TURBOPACK
+  // HABILITA EXPORT ESTÁTICO
+  output: 'export',
+
+  // NOME EXATO DO SEU REPOSITÓRIO
+  basePath: process.env.NODE_ENV === 'production' ? '/Portfolio-Ezequias' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/Portfolio-Ezequias' : '',
+
+  // Resolve erro do Turbopack (mantém pro dev)
   turbopack: {
-    root: '.', // Força o Next.js a usar a pasta atual como raiz do projeto
+    root: '.',
+  },
+
+  trailingSlash: true,
+  images: {
+    unoptimized: true,
   },
 };
 
