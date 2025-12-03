@@ -1,6 +1,5 @@
 import { Box, Flex, Grid, Stack, Text } from "@chakra-ui/react";
 import { Section } from "components/Section";
-import perfil from "assets/images/SectionImages/perfil-image.jpeg";
 
 export default function WhoIAm() {
   return (

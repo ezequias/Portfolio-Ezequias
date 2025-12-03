@@ -1,6 +1,6 @@
 import { Box, Stack, Image, useDisclosure } from "@chakra-ui/react";
 import React from "react";
-import logo from "../../assets/images/logo.svg";
+<img src="/assets/images/logo.svg" alt="Logo" />
 import { HumbMenu } from "../HumbMenu";
 import { SocialIcons } from "components/SocialIcons";
 import { useApplicationContext } from "contexts/ApplicationContext";

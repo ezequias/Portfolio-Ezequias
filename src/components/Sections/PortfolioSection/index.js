@@ -1,5 +1,5 @@
 import { Section } from "components/Section";
-import portfolio from "assets/images/SectionImages/portfolio.jpg";
+//import portfolio from "assets/images/SectionImages/portfolio.jpg";
 import { Card } from "components/Card";
 
 export function PortfolioSection() {

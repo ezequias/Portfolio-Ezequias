@@ -1,6 +1,5 @@
 import { Flex, Box, Image, Stack, Link } from "@chakra-ui/react";
 import React from "react";
-import rightarrow from "assets/images/rightarrow.svg";
 import { SubItem } from "./sub-item";
 
 export function MenuItem({ itemName, link, subItems, focus, setFocus, close }) {
@@ -46,7 +45,7 @@ export function MenuItem({ itemName, link, subItems, focus, setFocus, close }) {
         {itemName}
         {subItems ? (
           <Image
-            src={rightarrow.src}
+            src="/assets/images/rightarrow.svg"
             w="10px"
             alt="arrow"
             transform={focus === itemName ? "rotate(90deg)" : "rotate(0)"}
