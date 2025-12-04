@@ -13,6 +13,11 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+
+  // FORÇA O ASSETPREFIX NO BUILD
+  env: {
+    ASSET_PREFIX: '/Portfolio-Ezequias/',
+  },
 };
 
 module.exports = nextConfig;
