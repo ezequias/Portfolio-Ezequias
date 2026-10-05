@@ -4,7 +4,7 @@ export function GithubSection() {
   return (
     <Section title="Github" id="GithubSection" alignItems="center">
       <Card
-        image={github.src}
+        image="/assets/images/SectionImages/github.jpg"
         type="resume-content"
         height={{ base: "110px", lg: "200px" }}
       />

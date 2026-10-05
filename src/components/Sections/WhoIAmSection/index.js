@@ -18,7 +18,7 @@ export default function WhoIAm() {
         _hover={{ boxShadow: "0 0 20px rgb(0 0 0 / 40%)" }}
       >
         <Box
-          bgImage={perfil.src}
+          bgImage="/assets/images/SectionImages/perfil-image.jpeg"
           boxShadow="0 0 20px rgba(0,0,0, 0.2)"
           borderRadius="50%"
           w={{ base: "50%", md: "35%", xl: "25%" }}

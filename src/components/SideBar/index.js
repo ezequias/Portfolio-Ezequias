@@ -1,6 +1,5 @@
 import { Box, Stack, Image, useDisclosure } from "@chakra-ui/react";
 import React from "react";
-<img src="/assets/images/logo.svg" alt="Logo" />
 import { HumbMenu } from "../HumbMenu";
 import { SocialIcons } from "components/SocialIcons";
 import { useApplicationContext } from "contexts/ApplicationContext";
@@ -57,7 +56,7 @@ export function SideBar({ ...rest }) {
           {...rest}
         >
           <Box>
-            <Image mx="auto" w="30px" alt="logo" mt="25px" src={logo.src} />
+            <Image mx="auto" w="30px" alt="logo" mt="25px" src="/assets/images/logo.svg" />
             <HumbMenu
               toggle={isOpen}
               onToggle={onOpen}
