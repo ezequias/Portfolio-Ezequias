@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, Image, ChakraProvider } from "@chakra-ui/react";
-import { ApplicationContextProvider } from "../src/contexts/ApplicationContext";
+import { ApplicationContextProvider } from "contexts/ApplicationContext";
 
 function MyApp({ Component, pageProps }) {
   return (

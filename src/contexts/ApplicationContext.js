@@ -7,7 +7,7 @@ import {
 } from "react";
 import { useMediaQuery } from "react-responsive";
 
-const applicationContext = createContext();
+const applicationContext = createContext({});
 
 export const ApplicationContextProvider = ({ children }) => {
   const isMobileMediaQuery = useMediaQuery({ query: "(max-width: 1280px)" });
