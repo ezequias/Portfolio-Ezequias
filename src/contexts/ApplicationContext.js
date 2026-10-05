@@ -7,7 +7,18 @@ import {
 } from "react";
 import { useMediaQuery } from "react-responsive";
 
-const applicationContext = createContext({});
+const defaultContextValue = {
+  isMobile: false,
+  base: false,
+  sm: false,
+  md: false,
+  lg: false,
+  xl: false,
+  toggleMenu: false,
+  handleToggleMenu: () => {},
+};
+
+const applicationContext = createContext(defaultContextValue);
 
 export const ApplicationContextProvider = ({ children }) => {
   const isMobileMediaQuery = useMediaQuery({ query: "(max-width: 1280px)" });
@@ -27,12 +38,12 @@ export const ApplicationContextProvider = ({ children }) => {
     query: "(min-width: 1280px) and (max-width: 1535px)",
   });
 
-  const [isMobile, setIsMobile] = useState(undefined);
-  const [base, setBase] = useState(undefined);
-  const [sm, setSm] = useState(undefined);
-  const [md, setMd] = useState(undefined);
-  const [lg, setLg] = useState(undefined);
-  const [xl, setXl] = useState(undefined);
+  const [isMobile, setIsMobile] = useState(false);
+  const [base, setBase] = useState(false);
+  const [sm, setSm] = useState(false);
+  const [md, setMd] = useState(false);
+  const [lg, setLg] = useState(false);
+  const [xl, setXl] = useState(false);
 
   const [toggleMenu, handleToggleMenu] = useReducer((obj) => !obj, false);
 

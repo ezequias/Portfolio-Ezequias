@@ -3,7 +3,6 @@ import { Box, Grid } from "@chakra-ui/react";
 import { SideBar } from "components/SideBar";
 import { VideoSection } from "components/VideoSection";
 import { Apresentation } from "components/Apresentation";
-import { useApplicationContext } from "contexts/ApplicationContext";
 import { NavBar } from "components/NavBar";
 import { Footer } from "components/Footer";
 import { ExperienceSectionCards } from "components/Sections/ExperienceSectionCards";
@@ -18,7 +17,6 @@ import { BlogSection } from "components/Sections/BlogSection";
 import axios from "axios";
 
 export default function Home() {
-  const { isMobile } = useApplicationContext();
   const refBg = useRef(null);
   const handleScrollTo = (id) => (event) => {
     event.preventDefault();
@@ -30,10 +28,6 @@ export default function Home() {
       behavior: "smooth",
     });
   };
-
-  if (isMobile === undefined) {
-    return null;
-  }
   return (
     <>
       <Head>
