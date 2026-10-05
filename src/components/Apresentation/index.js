@@ -27,7 +27,7 @@ export function Apresentation({ handleScrollTo }) {
         px={{ base: "8px", md: "0" }}
       >
         <Text fontSize="20px" textAlign="center">
-          Scrum Master, Especialista em Business Intelligence e Desenvolvedor
+          PMO | Project Leader | CAC Certified Agile Coach | Scrum Master | Business Intelligence Analyst
         </Text>
       </Box>
       <Button
