@@ -45,20 +45,22 @@ export default function WhoIAm() {
           Quem sou eu:
         </Text>
         <Text fontSize={{ base: "18" }} p={{ base: "0", md: "0 30px" }}>
-          Profissional em TI com extensa experiência em aumentar a produtividade
-          através da análise e disponibilização de processos de negócio em
-          Utilities, reduzindo lacunas geradas por uma ideia de construção
-          rápida através soluções focadas na construção de um relacionamento
-          forte com o cliente em todos os níveis da organização. Como um
-          indivíduo altamente motivado, meu objetivo é trabalhar de modo efetivo
-          e participativo na entrega de projetos e soluções enquanto mantenho o
-          foco nos recursos, cronogramas e na qualidade. Sou uma pessoa
-          detalhista possuindo uma boa experiência em negócios, processos
-          técnicos e metodologias.
+          Líder de tecnologia e PMO com ampla experiência em conectar métricas 
+          operacionais a impactos financeiros reais, impulsionando a eficiência 
+          e a redução de custos. Atuo estrategicamente na gestão de produtos e 
+          projetos corporativos globais, combinando frameworks ágeis, como Scrum 
+          e Kanban, com o desenvolvimento de arquiteturas de ponta. Minha vivência 
+          abrange desde o desenvolvimento avançado de Sistemas de Informação Geográfica 
+          (GIS) e análise de dados até a liderança na implantação de Inteligência 
+          Artificial Agêntica. Sou focado em resolver desafios de negócios complexos e 
+          estruturar business cases, garantindo entregas de excelência por meio da 
+          comunicação assertiva com a alta gestão (C-Level) e do fortalecimento do 
+          relacionamento com os clientes.
           <br />
           <br />
-          Especialidades: Sistemas de Informações Geográficas, Programação,
-          Metodologia Ágil
+          Especialidades: Inteligência Artificial 
+          Agêntica, Sistemas de Informações Geográficas, Análise de Dados, Metodologias 
+          Ágeis, Gestão de Projetos.
         </Text>
       </Stack>
     </Section>
