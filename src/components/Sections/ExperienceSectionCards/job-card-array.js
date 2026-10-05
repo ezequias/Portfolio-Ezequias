@@ -39,4 +39,12 @@ export const JobCardArray = [
     link: "https://www.cognizant.com/us/en",
     logo: "/assets/images/SectionImages/logos/cognizant.svg",
   },
+   {
+    title: "Optimus",
+    abstract:
+      "Business Analyst in agrobusiness and environment compliance (EUDR)",
+    image: "/assets/images/SectionImages/logos/optimus.png",
+    link: "https://www.opt.com.br",
+    logo: "/assets/images/SectionImages/logos/optimus.svg",
+  },
 ];

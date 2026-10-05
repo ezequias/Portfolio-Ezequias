@@ -92,7 +92,12 @@ export function Footer() {
               <Link mr="20px" onClick={handleScrollTo("#BlogSection")}>
                 Blog
               </Link>
-              <Link>Adquira meu curso (Em breve)</Link>
+              <Link  mr="20px" href="https://www.salesforce.com/trailblazer/ezequiasrocha" isExternal>
+                Salesforce Trailblazer
+              </Link>
+               <Link  mr="20px" href="https://www.skills.google/public_profiles/87692bc2-3e4d-405e-9337-ebe4d1aea3f7" isExternal>
+                Google Skillsboost 
+              </Link>
             </Flex>
           </Stack>
         </Stack>
