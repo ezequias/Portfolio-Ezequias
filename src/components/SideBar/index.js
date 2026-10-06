@@ -52,7 +52,7 @@ export function SideBar({ ...rest }) {
             opacity: "0.8",
             zIndex: "-1",
           }}
-          zIndex="99999"
+          zIndex="999"
           {...rest}
         >
           <Box>
