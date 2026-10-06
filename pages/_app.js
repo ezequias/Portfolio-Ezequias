@@ -8,6 +8,7 @@ function MyApp({ Component, pageProps }) {
       <ChakraProvider>
         <ApplicationContextProvider>
           <Component {...pageProps} />
+          <Analytics />
         </ApplicationContextProvider>
       </ChakraProvider>
     </>
