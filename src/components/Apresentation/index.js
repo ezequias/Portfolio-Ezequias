@@ -26,7 +26,7 @@ export function Apresentation({ handleScrollTo }) {
         margin="3px"
         px={{ base: "8px", md: "0" }}
       >
-        <Text fontSize="20px" textAlign="center">
+        <Text fontSize="20px" textAlign="left" p={{ base: "0", md: "0 10px" }}>
           PMO | Project Leader | CAC Certified Agile Coach | Scrum Master | Business Intelligence Analyst
         </Text>
       </Box>
