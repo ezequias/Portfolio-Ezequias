@@ -13,7 +13,8 @@ import { Background } from "components/Background";
 import React, { useRef } from "react";
 import WhoIAm from "components/Sections/WhoIAmSection";
 import { ServicesSection } from "components/Sections/ServicesSection";
-import { BlogSection } from "components/Sections/BlogSection";
+import { BlogSection } from "components/Sections/BlogSection";7
+import { SEO } from "components/SEO";
 import axios from "axios";
 
 export default function Home() {
@@ -33,6 +34,18 @@ export default function Home() {
       <Head>
         <title>Ezequias Rocha</title>
         <meta name="description" content="Ezequias Rocha Portfólio" />
+
+        {/* Open Graph / Redes Sociais (WhatsApp, LinkedIn, Facebook) */}
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Ezequias Rocha" />
+        <meta property="og:description" content="Ezequias Rocha Portfólio" />
+        <meta property="og:image" content="https://ezequiasrocha.vercel.app/og-image.jpg" />
+
+        {/* Twitter / X Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Ezequias Rocha" />
+        <meta name="twitter:description" content="Ezequias Rocha Portfólio" />
+        <meta name="twitter:image" content="https://ezequiasrocha.vercel.app/og-image.jpg" />
       </Head>
 
       <Grid
