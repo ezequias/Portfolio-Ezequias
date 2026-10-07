@@ -72,7 +72,16 @@ export function SocialIcons({ size = "24px", placement = "right" }) {
           <Image alt="LinkedIn" w={size} src="/assets/images/linkedin.svg" />
         </Link>
       </Tooltip>
-
+      <Tooltip label="Pinterest" {...tooltipProps}>
+        <Link
+          href="https://br.pinterest.com/ezequiasrocha1/"
+          target="_blank"
+          transition="transform .3s"
+          _hover={{ transform: "scale(1.3)" }}
+        >
+          <Image alt="Pinterest" w={size} src="/assets/images/pinterest.svg" />
+        </Link>
+      </Tooltip>
       <Tooltip label="Instagram" {...tooltipProps}>
         <Link
           href="https://www.instagram.com/ezequias/"
