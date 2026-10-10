@@ -14,11 +14,13 @@ export function SocialIcons({ size = "24px", placement = "right" }) {
     px: "8px",
     boxShadow: "0 4px 12px rgba(0,0,0,0.3)",
     closeOnClick: false,
+    zIndex: 100000,
+    gutter: 14,
   };
 
   return (
     <>
-      <Tooltip label="Google Skillsboost" zIndex={50} {...tooltipProps}>
+      <Tooltip label="Google Skillsboost" {...tooltipProps}>
         <Link
           href="https://www.skills.google/public_profiles/87692bc2-3e4d-405e-9337-ebe4d1aea3f7"
           target="_blank"
