@@ -18,7 +18,7 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&display=swap"
             rel="stylesheet"
           />
-          <link rel="icon" href="/new-tab-icon.svg" />
+          <link rel="icon" href="/new-tab-icon.svg?v=2" />
         </Head>
         <body>
           <Main />
