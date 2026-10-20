@@ -13,9 +13,9 @@ import { Background } from "components/Background";
 import React, { useRef } from "react";
 import WhoIAm from "components/Sections/WhoIAmSection";
 import { ServicesSection } from "components/Sections/ServicesSection";
-import { BlogSection } from "components/Sections/BlogSection";7
+import { BlogSection } from "components/Sections/BlogSection";
+import { CertificatesSection } from "components/Certificates";
 import { SEO } from "components/SEO";
-import axios from "axios";
 
 export default function Home() {
   const refBg = useRef(null);
@@ -75,6 +75,7 @@ export default function Home() {
             <CoursesSection />
             <GithubSection />
             <ExperienceSectionCards />
+            <CertificatesSection />
             <ServicesSection />
             <BlogSection />
           </Box>

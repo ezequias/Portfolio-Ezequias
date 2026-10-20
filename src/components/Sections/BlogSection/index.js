@@ -7,7 +7,7 @@ import { Fade } from "react-reveal";
 import { ArrayStaticPosts } from "./array";
 
 export function BlogSection() {
-  const [postsMedium, setPostsMedium] = useState();
+  const [postsMedium, setPostsMedium] = useState(ArrayStaticPosts);
   const [postsLength, setPostsLength] = useState(20);
   useEffect(() => {
     axios
@@ -15,7 +15,8 @@ export function BlogSection() {
         "https://api.rss2json.com/v1/api.json?rss_url=https://ezequiasrocha.medium.com/feed"
       )
       .then((response) => {
-        const posts = response.data.items.concat(ArrayStaticPosts);
+        const items = response?.data?.items || [];
+        const posts = items.concat(ArrayStaticPosts);
         const outduplicates = posts.filter((item, index) => {
           const sliced = posts.slice(index + 1, posts.length);
           return (
@@ -26,6 +27,13 @@ export function BlogSection() {
         });
 
         setPostsMedium(outduplicates);
+      })
+      .catch((error) => {
+        console.warn(
+          "Não foi possível carregar os posts dinâmicos do Medium. Usando posts estáticos de fallback.",
+          error?.message
+        );
+        setPostsMedium(ArrayStaticPosts);
       });
   }, []);
   const pagination = postsMedium?.slice(0, postsLength);
