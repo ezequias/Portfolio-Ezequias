@@ -53,7 +53,7 @@ export const CertificatesArray = [
   },
   {
     id: "4",
-    title: "English Course - Advanced",
+    title: "English Course - Advanced 🇺🇸",
     issuer: "/learnship/",
     date: "2024",
     image: learnship,
@@ -143,7 +143,7 @@ export const CertificatesArray = [
   },
   {
     id: "14",
-    title: "Bacharelado em Ciência da Computação",
+    title: "Bacharelado em Ciência da Computação 👨🏻‍🎓",
     issuer: "Universidade Católica de Pernambuco - UNICAP",
     date: "2001",
     image: diplomaUnicap,
