@@ -161,6 +161,15 @@ export const CertificatesArray = [
   },
   {
     id: "16",
+        title: "TOEIC - Listening and Reading Official Institutional Score Report",
+        issuer: "ETS",
+        date: "2019",
+        image: toeic,
+        alt: "Listening and Reading Official Institutional Score Report",
+        skills: ["TOEIC", "Language", "English"],
+  },
+  {
+    id: "17",
     title: "Curso Aplicações Corporativas em Delphi 5",
     issuer: "Borland Inc.",
     date: "2001",
@@ -168,5 +177,14 @@ export const CertificatesArray = [
     alt: "Curso Aplicações Corporativas com Borland Delphi 5",
     skills: ["Delphi", "Borland", "Aplicações Corporativas"],
   },
+  {
+    id:18,
+    title: "English Course",
+    issuer: "EF International",
+    date: "1999",
+    image: ef,
+    alt: "EF English",
+    skills: ["English", "Language", "Boston"],
+  }
 ];
 
