@@ -152,6 +152,15 @@ export const CertificatesArray = [
   },
   {
     id: "15",
+        title: "MBA em Business Inteligence e Big Data",
+        issuer: "Centro Universitário João Pessoa - UNIPÊ",
+        date: "2019",
+        image: unipe,
+        alt: "MBA em Business Inteligence e Big Data",
+        skills: ["Business Intelligence", "MBA", "Big Data"],
+  },
+  {
+    id: "16",
     title: "Curso Aplicações Corporativas em Delphi 5",
     issuer: "Borland Inc.",
     date: "2001",
