@@ -13,6 +13,9 @@ import linkedinLearning from "./images/linkedin-learning.png";
 import esri from "./images/esri.jpg";
 import diplomaUnicap from "./images/diplomaUNICAP.jpg";
 import qualiti from "./images/qualiti.jpg";
+import unipe from "./images/unipe.png";
+import ef from "./images/ef.jpg";
+import toeic from "./images/teic.jpg"
 
 import microsoft1 from "./images/microsoft1.jpg";
 
